@@ -1,5 +1,3 @@
-import { remultNextApp } from "remult/remult-next";
-
-export const api = remultNextApp({});
+import { api } from "../../../api";
 
 export const { POST, PUT, DELETE, GET } = api;
