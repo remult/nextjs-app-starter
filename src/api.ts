@@ -1,3 +1,3 @@
-import { remultNextApp } from "remult/remult-next";
+import { remultApi } from "remult/remult-next";
 
-export const api = remultNextApp({});
+export const api = remultApi({});
